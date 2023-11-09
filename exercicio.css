@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+         <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#empregabilidade" title="ir para a seção de empregabilidade">empregabilidade</a>
+                    </li>
+                    <li>
+                        <a href="#tecnologia" title="ir para a seção de tecnologia">tecnologia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sport">
+       <div class="container">
+           <h2>Esportes</h2>
+           <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#sport" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#economy" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>     
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time class="creation-date">13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+      </div>
+    </section>
+    <section id="empregabilidade">
+        <div class="container">
+            <h2>emprego</h2>
+            <div class="articles">
+                <article>
+                    <img src="carteira.trabalho.jpg" alt="carteira de trabalho">
+                    <header>
+                        <time>05/11/2023 às 22:20</time>
+                    </header>
+                    <h3>desemprego recua</h3>
+                    <p>
+                        População ocupada com trabalho bate recorde com impulso de vagas formais, diz IBGE. Com recorde de pessoas trabalhando, a taxa de desemprego do Brasil recuou a 7,7% no terceiro trimestre de 2023. Trata-se do menor patamar para esse intervalo desde 2014 (6,9%), ano em que a economia nacional entrou em crise.
+                    </p>
+                    <a href="#" title="leia a noticia completa">Ler mais </a>
+                </article>
+                <article>
+                    <img src="emprego.ti.jpg" alt="empregos de TI">
+                    <header>
+                        <time>08/11/2023 às 21:06</time>
+                    </header>
+                    <h3>vagas de ti</h3>
+                    <p>O Google divulgou nesta quarta-feira (31) um estudo em que mostra os principais desafios do mercado de tecnologia da informação (TI) no Brasil. Segundo a empresa, o país terá um déficit de 530 mil profissionais da área até 2025.
+
+                        O relatório, produzido em parceria com a Associação Brasileira de Startups (Abstartups), aponta que, anualmente, 53 mil profissionais irão se formar entre 2021 e 2025, mas a demanda por novos talentos nesse período será de 800 mil, segundo a associação das empresas de tecnologia, a Brasscom.</p>
+                    <a href="#" title="leia a noticia completa">Ler mais</a>    
+                </article>
+                <article>
+                    <img src="carteira.assinada.jpg" alt="carteira assinada">
+                    <header>
+                        <time>05/11/2023 às 22:40</time>
+                    </header>
+                    <h3>EMPREGABILIDADE</h3>
+                    <p>
+                        No primeiro trimestre de 2023, 2,2 milhões de pessoas estavam procurando por um emprego durante dois anos ou mais, o que representa uma redução de 35,3%, para esta faixa da população 35,3% frente ao último trimestre de 2022, quando este contingente somava 3,5 milhões de pessoas.
+                    </p>
+                    <a href="#" title="leia a noticia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="tecnologia">
+        <div class="container">
+            <h2>tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="tecnologia.jpg" alt="tecnologia">
+                    <header>
+                        <time>08/11/2023 às 22:59</time>
+                    </header>
+                    <h3>TECNOLOGIA</h3>
+                    <p>
+                        A tecnologia atual, já nos permite conversar com pessoas de qualquer lugar do mundo, trabalhar de onde estivermos e realizar transações financeiras muito mais rápidas do que era a alguns anos atrás. Atualmente, já existem hologramas com as imagens de pessoas que já partiram e até mesmo robôs humanoides
+                    </p>
+                    <a href="#" title="leia a noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="tesla.jpg" alt="sustentabilidade = velocidade">
+                    <header>
+                        <time>08/11/2023 às 22:59</time>
+                    </header>
+                    <h3>CARROS ECONOMICOS</h3>
+                    <p>Qual futuro dos carros elétricos?
+                        Os veículos elétricos no Brasil têm um futuro promissor. Afinal, o histórico já mostra uma ascensão da mobilidade elétrica no país. Em 2022, o país bateu recorde de emplacamentos, com 49,2 mil veículos licenciados. O número representa um aumento de 41% em relação a 2021, quando foram 35 mil emplacamentos.</p>
+                        <a href="#" title="ler noticia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="drone.jpg" alt="drone">
+                    <header>
+                        <time>08/11/2023 às 22:59</time>
+                    </header>
+                    <h3>DRONES</h3>
+                    <P>O que são drones para que serve?
+                        O que são drones e quais regras você precisa seguir para ...
+                        Os drones são aeronaves não tripuladas de diversos tamanhos que inicialmente possuiam usos militares, mas que hoje em dia possuem uma variedade bem grande de utilizações, desde captação de imagens para eventos, transmissões de imagens para atividades jornalísticas, entrega de objetos para lojas e claro, diversão.</P>                        
+                    <a href="#" title="Ler noticia completa">Ler mais</a>    
+                </article>
+        </div>
+    </section>
+</body>
+</html>
